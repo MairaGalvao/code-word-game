@@ -1,0 +1,29 @@
+
+.crossword {
+  display: grid;
+  grid-template-columns: repeat(15, 30px); 
+  grid-template-rows: repeat(15, 30px); 
+  gap: 1px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.crossword-square {
+  box-sizing: border-box;
+  border: 1px solid #000;
+  position: relative;
+  width: 30px; 
+  height: 30px; 
+}
+
+.black-square {
+  background-color: #000;
+}
+
+.square-id {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  color: #fff;
+  font-size: 10px;
+}
